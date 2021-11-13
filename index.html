@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Localli</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_container container">
+            <img class="logo" src="./img/logo.png" alt="logo">
+            <nav class="header_navigation">
+                <ul class="header_navigation_menu">
+                    <li class="header_navigation_menu_item"><a class="navigation_menu_link" href="#work_description">How it works</a></li>
+                    <li class="header_navigation_menu_item"><a class="navigation_menu_link" href="#delivery_price">Pricing</a></li> 
+                    <li class="header_navigation_menu_item"><button class="button request_beta_button"><a class="navigation_menu_link navigation_menu_link_button" href="#">Request Beta</a></button></li> 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main" id="main">
+        <div class="container main_container">
+            <p class="page_description">Introducing Localli</p>
+            <h1 class="main_title">Same-day Delivery<br> for Shopify Brands.</h1>
+            <p class="main_text">Localli is a fulfilment & delivery service that allows you to offer a same-day delivery experience for<br> your customers conveniently from their checkout page.</p>
+            <nav class="main_navigation">
+                <ul class="main_navigation_menu">
+                    <li class="main_navigation_menu_item"><button class="button request_beta_button"><a class="navigation_menu_link navigation_menu_link_button" href="#">Request Beta</a></button></li>
+                    <li class="main_navigation_menu_item"><a class="navigation_menu_link" href="#work_description">How it works</a></li>
+                </ul> 
+            </nav>
+            <ul class="main_list">
+                <li class="main_list_item"><span class="main_list_checkbox">&#10004;</span>Increase your store conversions</li>
+                <li class="main_list_item"><span class="main_list_checkbox">&#10004;</span>Offer an Amazon like delivery experience</li>
+                <li class="main_list_item"><span class="main_list_checkbox">&#10004;</span>Reduce your abandoned carts</li>
+            </ul>
+            <img class="main_image" src="./img/main1.png" alt="the courier holds the box in his hands">
+            <p class="page_description">Introducing Localli</p>
+            <h2 class="subtitle">Localli operates a network of micro-<br>fulfilment spaces across the country<br> in major cities, down to your nearest<br> neighborhood.</h2>
+            <img class="main_city_image" src="./img/main2.png" alt="courier movement around the city">
+        </div>
+    </main>
+    <section class="work_description" id="work_description">
+        <div class="container work_description_container">
+            <p class="page_description">How it works</p>
+            <h2 class="subtitle">Same-day delivery<br>in 3-simple steps.</h2>
+            <ul class="work_description_list">
+                <li class="work_description_list_item">
+                    <img src="./img/how_it_work1.png" alt="A laptop, a loading trolley and a house" class="work_description_list_image">
+                    <h3 class="work_description_list_subtitle">1. Connect & send inventory</h3>
+                    <p class="work_description_list_text">Install our app and connect your store. Import your products and send your inventory to any of our facilities or your most popular delivered city.</p>
+                </li>
+                <li class="work_description_list_item">
+                    <img src="./img/how_it_work2.png" alt="Courier and boxes" class="work_description_list_image">
+                    <h3 class="work_description_list_subtitle">2. We sort and store</h3>
+                    <p class="work_description_list_text">Our team will sort and store your inventory at our micro-fulfilment centers positioned conveniently near your customers.</p>
+                </li>
+                <li class="work_description_list_item">
+                    <img src="./img/how_it_work3.png" alt="Courier delivers the package" class="work_description_list_image">
+                    <h3 class="work_description_list_subtitle">3. Shipped & delivered within hours</h3>
+                    <p class="work_description_list_text">Once an order is placed, we pack and send your order out using local courier partners. All tracked conveniently through your custom tracking page.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="tracking_page">
+        <div class="container tracking_page_container">
+            <div class="tracking_page_info">
+                <div class="tracking_page_info_container">
+                    <h2 class="subtitle">Custom Branded<br> Tracking Page.</h2>
+                    <p class="tracking_page_info_text">Customize your tracking page and create unique upsell experiences within one page to increase your retention rate. You can also track your sales generated from the tracking page in our beautiful dashboard.</p>
+                    <button class="button request_beta_button"><a class="navigation_menu_link navigation_menu_link_button" href="#">Request Beta</a></button>
+                </div>
+                <img src="./img/tracking_page.png" alt="Monitor with tracking page" class="tracking_page_image">
+            </div>
+        </div>
+    </section>
+    <section class="delivery_price" id="delivery_price">
+        <div class="delivery_price_container container">
+            <form class="delivery_cost">
+                <p class="delivery_form_text">Sender and recipient details</p>
+                <input type="email" name="email" id="email" class="input user_email" placeholder="Email">
+                <select name="country" id="country" class="input delivery_country">
+                    <option class="delivery_country_option" value="country" id="countryPlaceholder">Choose a country</option>
+                    <option class="delivery_country_option" value="Austria" id="at">Austria</option>
+                    <option class="delivery_country_option" value="Belgium" id="be">Belgium</option>
+                    <option class="delivery_country_option" value="Czechia" id="cz">Czechia</option>
+                    <option class="delivery_country_option" value="Germany" id="de">Germany</option>
+                    <option class="delivery_country_option" value="Netherlands" id="nl">Netherlands</option>
+                    <option class="delivery_country_option" value="France" id="fr">France</option>
+                    <option class="delivery_country_option" value="Switzerland" id="ch">Switzerland</option>
+                </select>
+                <p class="delivery_form_text">Shipping method</p>
+                <div class="shipping_method_container input">
+                    <input class="radio_input" type="radio" name="method_delivery" id="standard_delivery" value="standard_delivery" >
+                    <label class="label_radio_input" for="standard_delivery">Standard <span class="delivery_cost_span">Free</span></label>
+                </div>
+                <div class="shipping_method_container input">
+                    <input class="radio_input" type="radio" name="method_delivery" id="expidited_delivery" value="expidited_delivery">
+                    <label class="label_radio_input" for="expidited_delivery">Expidited <span class="delivery_cost_span">7 &#8364;</span></label>
+                </div>
+                <div class="shipping_method_container input">
+                    <input class="radio_input" type="radio" name="method_delivery" id="same_delivery" value="same_delivery">
+                    <label class="label_radio_input" for="same_delivery">Same-Day Delivery with Localli <span class="same_delivery_cost_span">9.90 &#8364;</span></label>
+                </div>
+                <button class="cost_calculate_button button" type="button">Сalculate the cost</button>
+                <textarea  name="cost" id="cost" class="input delivery_cost_result">&#128722; Cost</textarea>
+                <button class="payment_button button empty_link" type="button">Continue to payment</button>
+            </form>
+            <div class="delivery_price_info">
+                <h2 class="subtitle">Affordable delivery without the wait.</h2>
+                <p class="delivery_price_text">For the same price as most standard shipping options, it’s time to upgrade your customer purchasing experience and increase your conversion rates, today!</p>
+            </div>
+        </div>
+    </section>
+    <section class="expanding_city">
+        <div class="container">
+            <h2 class="subtitle expanding_city_title">Expanding to a city near you.</h2>
+            <p class="expanding_city_text">Localli is growing every month to offer delivery to your customers in as<br> little as 2-hours. As we expand, so do you.</p>
+            <p class="expanding_city_text">Currently operating: Los Angeles and Miami</p>
+            <img class="expanding_city_image" src="./img/card.png" alt="card">
+        </div>
+    </section>
+    <section class="frequently_questions" id="frequently_questions">
+        <div class="frequently_questions_container container">
+            <p class="page_description">FAQ’s</p>
+            <h2 class="subtitle">Frequently asked questions.</h2>
+            <div class="questions_accordion">
+                <button class="question_accordion_button">How fast is same-day delivery?<span class="question_arrow">&#10003;</span></button>
+                <p class="antwort_accordion hidden">Delivery is usually within 24 hours</p>
+                <button class="question_accordion_button">Is it expensive to offer same-day delivery?<span class="question_arrow">&#10003;</span></button>
+                <p class="antwort_accordion hidden">Confirmation comes within 2 hours of leaving the application</p>
+                <button class="question_accordion_button">Where are fulfilment centers located?<span class="question_arrow">&#10003;</span></button>
+                <p class="antwort_accordion hidden">Check the locations of these centres on our website</p>
+                <button class="question_accordion_button">How will customers be able to choose this delivery option?<span class="question_arrow">&#10003;</span></button>
+                <p class="antwort_accordion hidden">When you apply on our website</p>
+                <button class="question_accordion_button">How can I get Localli?<span class="question_arrow">&#10003;</span></button>
+                <p class="antwort_accordion hidden">Apply for a Beta version</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="request_beta_section" id="request_beta_section">
+        <div class="request_beta_container container">
+            <div class="request_beta_text_info">
+                <p class="page_description">Request a beta</p>
+                <h2 class="subtitle beta_request_subtitle">Get started with Localli today.</h2>
+                <p class="request_beta_text">Localli is growing every month to offer delivery to your customers in as little as 2-hours. As we expand, so do you.</p>
+                <button class="button empty_link">Request Beta</button>
+            </div>
+            <img class="beta_request_image" src="./img/request_beta.jpg" alt="">
+        </div>
+    </section>
+    <hr class="line">
+    <section class="message">
+        <div class="message_container container message_disable">
+            <div class="message_container_text">
+                <p>Oops, it's not a real website.</p>
+                <p>Have a good day :)</p>
+            </div>
+            <button class="message_button"><a class="message_link" href="#">&#10003;</a></button>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_container container">
+            <div class="logo_container">
+                <img class="logo loqo_footer" src="./img/logo.png" alt="logo">
+                <p class="footer_text">Same-day fullfilment & delivery for Shopify brands.</p>
+                <p class="copyright">© 2021 Localli LLC</p>
+            </div>
+            <nav class="footer_navigation">
+                <ul class="footer_navigation_menu">
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link navigation_menu_link_title" href="">Links</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link" href="#work_description">How it works</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link" href="#delivery_price">Pricing</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link empty_link" href="">Sign up</a></li>
+                </ul>
+                <ul class="footer_navigation_menu">
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link navigation_menu_link_title" href="">Resources</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link" href="#frequently_questions">FAQ’s</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link empty_link" href="">Help Center</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link empty_link" href="">Blog</a></li>
+                </ul>
+                <ul class="footer_navigation_menu">
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link navigation_menu_link_title" href="">Company</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link" href="#main">About us</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link empty_link" href="">Privacy policy</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link empty_link" href="">Terms of use</a></li>
+                    <li class="footer_navigation_menu_item"><a class="navigation_menu_link empty_link" href="">Get in touch</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
