@@ -1,153 +1,145 @@
-@media only screen and (max-width : 1200px) {
-  .container{
-      width: 80%;
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 80%;
   }
 
-  .main_title{
-      font-size: 46px;
+  .main_title {
+    font-size: 46px;
   }
 
-  .main_list_item{
+  .main_list_item {
     display: none;
-}
-
-  .main_image{
-      margin-top: 25px;
-      width: 90%;
   }
 
-  .subtitle{
-      font-size: 30px;
+  .main_image {
+    margin-top: 25px;
+    width: 90%;
   }
 
-  .main_city_image{
-      display: none;
+  .subtitle {
+    font-size: 30px;
   }
 
-  .main_container .page_description{
-      display: none;
+  .main_city_image {
+    display: none;
   }
 
-  .main .subtitle{
-      display: none;
+  .main_container .page_description {
+    display: none;
   }
 
-  .work_description_list{
-      flex-direction: column;
-      align-items: center;
-      margin-top: 25px;
+  .main .subtitle {
+    display: none;
   }
 
-  .work_description_list_text{
+  .work_description_list {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+  }
+
+  .work_description_list_text {
     text-align: center;
   }
 
-  .tracking_page_image{
-      width: 60%;
+  .tracking_page_image {
+    width: 60%;
   }
 
-  .delivery_price_info{
-      display: none;
+  .delivery_price_info {
+    display: none;
   }
 
-  .delivery_cost{
-      margin: 0 auto;
+  .delivery_cost {
+    margin: 0 auto;
   }
 
-  .expanding_city{
-      display: none;
+  .expanding_city {
+    display: none;
   }
 
   /*beta req*/
 
-  .request_beta_container{
-      width: 100%;
+  .request_beta_container {
+    width: 100%;
   }
 
-  .beta_request_image{
-      display: none;
+  .beta_request_image {
+    display: none;
   }
 
-
-  .request_beta_text_info{
-      text-align: center;
-      margin: 0 auto;
+  .request_beta_text_info {
+    text-align: center;
+    margin: 0 auto;
   }
 
-  .question_accordion_button{
-      width: 80%;
+  .question_accordion_button {
+    width: 80%;
   }
 
-  .question_arrow{
-      right: -25px;
+  .question_arrow {
+    right: -25px;
   }
-
 }
 
-@media only screen and (max-width : 768px) {
-    .header_navigation_menu_item{
-        display: block;
-        text-align: center;
-        margin-bottom: 3px;
-    }
-
-    .main_title{
-        font-size: 32px;
-    }
-
-    .main_navigation_menu{
-        margin-bottom: 35px;
-    }
-
-    .main_list_item{
-        display: none;
-    }
-
-    .tracking_page_image{
-        display: none;
-    }
-
-    .tracking_page_info{
-        text-align: center;
-        margin-top: 70px;
-    }
-
-    .delivery_cost{
-        max-width: 80%;
-    }
-
-    /* .request_beta_container{
-        width: 100%;
-    } */
-
-    .request_beta_text_info{
-        margin: 0 auto;
-    }
-
-    .request_beta_text{
-        display: none;
-    }
-
-    .request_beta_text_info .button{
-        margin-bottom: 50px;
-    }
-
-    .footer_navigation_menu{
-        margin-left: 25px;
-    }
-
-    .footer_navigation_menu a{
-        font-size: 13px;
-    }
-
-  .message_container{
-      max-width: 400px;
-      margin-left: -200px; 
-  } 
-
-  .questions_accordion_arrow{
-      position: absolute;
-
+@media only screen and (max-width: 768px) {
+  .header_navigation_menu_item {
+    display: block;
+    text-align: center;
+    margin-bottom: 3px;
   }
 
+  .main_title {
+    font-size: 32px;
+  }
+
+  .main_navigation_menu {
+    margin-bottom: 35px;
+  }
+
+  .main_list_item {
+    display: none;
+  }
+
+  .tracking_page_image {
+    display: none;
+  }
+
+  .tracking_page_info {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .delivery_cost {
+    max-width: 80%;
+  }
+
+  .request_beta_text_info {
+    margin: 0 auto;
+  }
+
+  .request_beta_text {
+    display: none;
+  }
+
+  .request_beta_text_info .button {
+    margin-bottom: 50px;
+  }
+
+  .footer_navigation_menu {
+    margin-left: 25px;
+  }
+
+  .footer_navigation_menu a {
+    font-size: 13px;
+  }
+
+  .message_container {
+    max-width: 400px;
+    margin-left: -200px;
+  }
+
+  .questions_accordion_arrow {
+    position: absolute;
+  }
 }
